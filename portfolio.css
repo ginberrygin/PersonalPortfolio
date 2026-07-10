@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Headings: Poppins (700)
+Body: Inter (400)
+Buttons: Poppins (600) */
+
+
+body{
+    background-color: #494620;
+    color: whitesmoke;
+}
+.container{
+    padding:1% 8%;
+}
+h1 {
+    font-weight: 700;
+}
+
+h2 {
+    font-weight: 600;
+}
+
+p {
+    font-weight: 400;
+}
+
+.small-text {
+    font-weight: 300;
+}
