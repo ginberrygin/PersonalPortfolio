@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
 
 *{
     margin: 0;
@@ -15,10 +15,16 @@ Buttons: Poppins (600) */
 body{
     background-color: #494620;
     color: whitesmoke;
+    font-family: "Inter", sans-serif;
 }
 .container{
-    padding:1% 8%;
+    padding:10px;
 }
+
+header{
+    display: flex;
+    justify-content:space-around;
+    align-items:center;
 h1 {
     font-weight: 700;
 }
@@ -31,6 +37,13 @@ p {
     font-weight: 400;
 }
 
+
+
+
+
+.btn {
+    font-family: "Poppins", sans-serif;
+}
 .small-text {
     font-weight: 300;
 }
