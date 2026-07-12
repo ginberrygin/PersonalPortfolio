@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #494620;
+    color: whitesmoke;
+    font-family: "Inter", sans-serif;
+}
+html {
+    scroll-behavior: smooth;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    gap: 10px 20px;
+
+
+    width: 100%;
+    max-width: 1200px; /* Prevents the form from becoming too wide on large screens */
+    margin: 20px auto; /* Centalizes the container itself on the page */
+    
+    padding: 20px 40px; /* Switched to pixels for more predictable spacing */
+    border: 2px solid whitesmoke;
+    border-radius: 10px;
+    background: #5b5727;
+    color: #ffffff;
+    box-shadow: 0 35px 55px rgb(0,0,0,0.1);
+}
+
+/* Stylying the header section */
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+  
+   
+}
+.logo img{
+    width: 50px;
+    height: 50px;
+    object-fit: contain; /* Prevents the logo from stretching or distortion */
+    border-radius: 3px;
+    border: 2px solid red;
+}
+.institution_name h1{
+    text-transform: uppercase;
+    font-family: "Poppins", sans-serif;
+    font-weight: 900;
+     color: gray;
+ 
+   
+}
+.navbar ul li{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}

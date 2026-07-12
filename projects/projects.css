@@ -104,6 +104,9 @@ ul a{
     border-radius:10px;
     font-family: "Poppins", sans-serif;
     font-weight: 500;
+    /* The margin 5px auto centers your button to the middle */
+    margin: 5px auto;
+  
     /* Transition property */
     background-size: 250%; 
     background-image: linear-gradient(120deg,  transparent 0%,  transparent 50%, black 50%);
@@ -116,4 +119,28 @@ ul a:hover{
     background-position: 100%;
     color:whitesmoke;
     transform: translateX(10px);
+}
+
+
+
+.form-group {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+
+.form-group label {
+    width: 120px;          /* Same width for all labels */
+    margin-right: 15px;
+    padding: 0;
+    text-align: right;
+}
+
+.form-group input {
+    flex: 1;               /* Input takes remaining space */
+    max-width: 300px;
 }
